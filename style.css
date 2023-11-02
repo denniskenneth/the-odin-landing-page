@@ -45,11 +45,12 @@ div.text {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  margin: 30px 0;
 }
 #heroContent > div {
   /* margin: 0 auto; */
   width: 500px;
-  height: 350px;
+  /* height: 350px; */
   /* display: inline; */
 }
 #heroContent > .heroText {
@@ -60,6 +61,12 @@ div.text {
 #heroContent > .heroText > button {
   width: 25%;
   height: 2em;
+  background-color: #3882f6;
+  border: none;
+  border-radius: 5px;
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: bold;
 }
 #heroContent p {
   margin-block-start: 0.2em;
@@ -69,6 +76,10 @@ div.text {
 #heroContent > .heroImg {
   /* width: 30%; */
 }
+.heroImg > img {
+  width: 100%;
+}
+
 p.mainTxt {
   font-size: 48px;
   font-weight: 900;
@@ -82,9 +93,12 @@ p.mainTxt {
   /* margin: auto; */
 }
 
+/* MAIN ELEMENT TAG STYLING */
 main {
   text-align: center;
 }
+
+/* RANDOM SECTION */
 .randomSection {
   display: flex;
   /* align-items: center; */
@@ -98,12 +112,13 @@ main {
   gap: 40px;
 }
 .randomInfo .holder {
-  width: 120px;
+  width: 130px;
+  text-align: left;
 }
 .randomInfo .box {
   border: 1px solid blue;
-  border-radius: 25%;
-  height: 100px;
+  border-radius: 10%;
+  height: 125px;
 }
 p.info {
   font-size: 36px;
@@ -111,6 +126,7 @@ p.info {
   font-weight: bolder;
 }
 
+/* QUOTE SECTION  */
 .quoteSection {
   background-color: #e5e7eb;
   height: 400px;
@@ -118,8 +134,23 @@ p.info {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 0 25%;
+}
+.quoteSection p:nth-child(2) {
+  justify-content: end;
+  display: flex;
+  width: 100%;
+  font-weight: 800;
 }
 
+.strucTxt {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  font-weight: 100;
+}
+
+/* CALL TO ACTION SCTION */
 #call2actn {
   height: 400px;
   display: flex;
@@ -128,6 +159,7 @@ p.info {
   flex-direction: column;
 }
 
+/* FOOTER */
 footer {
   height: 80px;
   display: flex;
