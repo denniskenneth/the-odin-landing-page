@@ -158,6 +158,35 @@ p.info {
   align-items: center;
   flex-direction: column;
 }
+#call2actn > .actionBanner {
+  width: 60%;
+  height: 25%;
+  padding: 20px 30px;
+  background-color: #3882f6;
+  border-radius: 10px;
+  color: #f9faf8;
+  text-align: left;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#call2actn > .actionBanner p {
+  margin: 0;
+  font-size: 24px;
+}
+#call2actn > .actionBanner p:nth-child(2) {
+  font-size: 16px;
+  color: #e5e7eb;
+}
+#call2actn > .actionBanner button {
+  background-color: transparent;
+  border: #f9faf8 solid;
+  color: #f9faf8;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  font-size: 18px;
+}
 
 /* FOOTER */
 footer {
